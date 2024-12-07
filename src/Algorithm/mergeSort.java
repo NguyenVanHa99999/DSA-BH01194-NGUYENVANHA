@@ -31,7 +31,7 @@ public class mergeSort {
         }
     }
     public static void main(String[] args) {
-        int n = 1000; 
+        int n = 100000000; 
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
             arr[i] = (int)(Math.random() * 1000); 
